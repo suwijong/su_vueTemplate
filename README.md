@@ -68,7 +68,7 @@ api文件夹
          2. 刷新页面会重新初始化整个应用，重新分配内存
       2. 解决方案：
          1. 当页面刷新的时候重新发请求获取数据，更新Vuex中的数据
-         2. 利用页面刷新的事件  + sessionStorage
+         2. 利用页面刷新的事件  + sessionStorage 
             1. 在unload事件的回调中将数据保存至sessionStorage中
             2. 在组件重新加载之后从sessionStorage中读取并更新至Vuex中
 See [Configuration Reference](https://cli.vuejs.org/config/).
