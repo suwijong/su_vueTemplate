@@ -1,5 +1,8 @@
-##1,全局安装vue,vue-cli  //vue -V可查看版本  
+##1,全局安装vue,vue-cli  //vue -V可查看版本
+3.0以下    npm install -g vue-cli@版本号
+3.0以上   npm install -g @vue/cli@版本号  
 安装依赖  npm install  @vue/cli  -g (一般是安装的,所以初始化项目即可)
+cd进入到要创建项目的目录里进行初始化项目
 初始化项目  vue  create  <projectName>
 vue2脚手架使用
 如果要使用vue2的脚手架
